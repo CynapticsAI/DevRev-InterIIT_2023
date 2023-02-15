@@ -106,7 +106,10 @@ Checkpoints are saved at the path assigned to *save_path*
 For *ft+eval_same* and *ft+eval_custom* modes, run all the section.
 For *eval_only* mode, skip the Finetuning section
 
-Download the Model checkpoints(Cross Encoder) from the link[https://drive.google.com/drive/folders/1M0YSuwNUawHx51aeEaFXBpm56cklxOTS?usp=share_link]
-Download the Model checkpoints(QA Model) from the link[https://drive.google.com/drive/folders/1sSHApFT8JPFn9Wo5uHsYPaQxHLhf5F7M?usp=share_link]
-The link to the Data Files can be found here[https://drive.google.com/drive/folders/1nmBN7Dwmo125CvXp8Cav2SnwyaoBINxl?usp=share_link]
+Download the Model checkpoints(Cross Encoder) from the [link](https://drive.google.com/drive/folders/1M0YSuwNUawHx51aeEaFXBpm56cklxOTS?usp=share_link)
+
+Download the Model checkpoints(QA Model) from the [link](https://drive.google.com/drive/folders/1sSHApFT8JPFn9Wo5uHsYPaQxHLhf5F7M?usp=share_link)
+
+The link to the Data Files can be found [here](https://drive.google.com/drive/folders/1nmBN7Dwmo125CvXp8Cav2SnwyaoBINxl?usp=share_link)
+
 ---
