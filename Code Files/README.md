@@ -115,3 +115,17 @@ Download the Model checkpoints(QA Model) from the [link](https://drive.google.co
 The link to the Data Files can be found [here](https://drive.google.com/drive/folders/1nmBN7Dwmo125CvXp8Cav2SnwyaoBINxl?usp=share_link)
 
 ---
+
+## **Instructions for Optimization and Evaluation of QA Model using _QA_Model_Optimization+Evaluation.ipynb_ file:**
+
+Run the following sections in the below given order:
+1. **Variables**: Change the model_name variable(Huggingface Model Card) and m variable(for saving)
+2. **Imports**: To perfom the neccesary imports
+3. **Loading Base**: To load the Question Answering Model and Tokenizer and Get its layers for optimization.
+4. Run One of the Required Optimization Steps
+* **Pruning**: Prunes the Model's Linear and Embedding Layers
+* **Quantization**: Performs Quantization
+* **Dynamic Quantization**: Performs Dynamic(Intel Version) Quantization
+5. **Prediction**: Get the Predictions and Compute the F1 and QA score, By Default it gets prediction on 1000 Questions from Squadv2 on 327 themes.
+
+---
