@@ -129,3 +129,5 @@ Run the following sections in the below given order:
 5. **Prediction**: Get the Predictions and Compute the F1 and QA score, By Default it gets prediction on 1000 Questions from Squadv2 on 327 themes.
 
 ---
+## Rule Based Algorithm
+Run the rule_based_Algorithm.py. It contains English Grammar rules to filter the paragraphs containing answer to a given question given a list of paragraphs.
